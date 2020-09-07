@@ -1,9 +1,9 @@
 {
-  "name": "@mondough/progression-framework",
+  "name": "@crowdproperty/progression-framework",
   "private": true,
   "version": "1.0.0",
-  "description": "Monzo's progression framework site",
-  "author": "Lucas Johnston <lucasjohnston@monzo.com>",
+  "description": "CrowdProperty's progression framework site",
+  "author": "Chris Anstey <chris.anstey@crowdproperty.com>",
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.12",

@@ -160,7 +160,7 @@ export const ScrollbarHeader = styled.div`
   display: flex;
   width: 80%;
   margin-top: 3em;
-  margin-left: 3.5rem;
+  margin-left: 2rem;
   margin-bottom: 15px;
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
@@ -202,7 +202,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   width: 100%;
   height: 100% !important;
-  
+
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     padding: env(safe-area-inset-top) env(safe-area-inset-right)
     env(safe-area-inset-bottom) env(safe-area-inset-left);
@@ -385,7 +385,7 @@ export const SidebarList = styled.ul`
     props.main &&
     css`
       width: 70%;
-      margin-left: 3.5rem;
+      margin-left: 2.5rem;
       margin-top: 2em;
       margin-bottom: 3em;
       @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
@@ -401,7 +401,7 @@ export const SidebarPaddingSection = styled.div`
     css`
       padding-bottom: 3rem;
     `}
-    
+
   ${props =>
     props.borderedTop &&
     css`
@@ -419,7 +419,7 @@ export const SidebarPaddingSection = styled.div`
     css`
       margin-top: 3rem;
     `}
-      
+
   ${props =>
     props.border &&
     css`
@@ -443,7 +443,6 @@ export const SidebarIcon = styled.img`
   width: auto;
   height: auto;
   max-height: 54.6px;
-  max-width: 63px;
   min-width: 39px;
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {

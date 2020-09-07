@@ -25,25 +25,20 @@ export default class Index extends React.Component<Props> {
         <DescriptionView>
           <DescriptionTitleGroup>
             <Subtitle>Welcome To</Subtitle>
-            <Title>Progression at Monzo 🎉</Title>
+            <Title>Progression at CrowdProperty 🎉</Title>
           </DescriptionTitleGroup>
           <Description>
             <DescriptionText>
-              This is where we keep the progression frameworks we use at Monzo.
+              This is where we keep the progression frameworks we use at
+              CrowdProperty. Progression frameworks are tools that help people
+              understand how to progress in their work.
             </DescriptionText>
             <DescriptionText>
-              Progression frameworks are tools that help us evaluate and pay our
-              staff consistently, and help people understand how to progress in
-              their work.
-            </DescriptionText>
-            <DescriptionText>
-              We&apos;ve put them here for everyone at Monzo (and anyone in the
-              world!) to use.
-            </DescriptionText>
-            <DescriptionText>
-              We&apos;ll be adding more frameworks as we build them, and
-              updating existing ones as we grow, so expect things to change
-              around here!
+              Big Thanks to <a href="https://monzo.com/">Monzo</a> for open
+              sourcing their{' '}
+              <a href="https://github.com/monzo/progression-framework">
+                Progression Framework
+              </a>, on which, ours is heavily based.
             </DescriptionText>
             <DescriptionText>
               This site, along with all our progression frameworks, are open
@@ -53,14 +48,13 @@ export default class Index extends React.Component<Props> {
             </DescriptionText>
             <DescriptionText>
               To get involved, go to{' '}
-              <a href="https://github.com/monzo/progression-framework">
+              <a href="https://github.com/crowdproperty/progression-framework">
                 <FontAwesomeIcon icon={faGithub} />{' '}
-                @monzo/progression-framework.
+                @crowdproperty/progression-framework.
               </a>
             </DescriptionText>
             <DescriptionText>
-              You can find out more about progression at Monzo and what it means
-              for us in this{' '}
+              You can find out more about Monzos progresson framework in this{' '}
               <a href="https://monzo.com/blog/2019/01/07/progression">
                 blog post.
               </a>
