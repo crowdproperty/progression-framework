@@ -77,7 +77,7 @@ topics:
           - "Breaks down projects into smaller iterative steps that each deliver value"
       - level: 5
         criteria:
-          - "Solves the 'hard problem' in a project e.g. Mastercard crypto and sees it through to resolution"
+          - "Solves the 'hard problem' in a project and sees it through to resolution"
           - "Solves larger ambiguous problems"
           - "Leads incident resolutions"
           - "Makes judgements about when to diverge from the immediate goal to achieve something else"
@@ -112,7 +112,7 @@ topics:
         exampleCriteria:
           - criteria: "Makes improvements to modules/libraries/services and goes out of their way to help others learn from it"
             examples:
-              - "I've used RxJava for the first time here, I'm going to do a talk about why I've done this, here's some great blog posts on it"
+              - "I've used Vue.js for the first time here, I'm going to do a talk about why I've done this, here's some great blog posts on it"
       - level: 5
         criteria:
           - "Instills CrowdProperty engineering principles across a whole squad of engineers"
@@ -174,7 +174,7 @@ topics:
         criteria:
           - "Learns to write semantic HTML and CSS following guidance and training materials"
           - "Learns to write correct JavaScript following guidance and training materials"
-          - "Uses Chrome, React, and Redux DevTools effectively to increase productivity during development and debugging"
+          - "Uses dev tools effectively to increase productivity during development and debugging"
           - "Implements simple components"
           - "Fixes simple bugs"
           - "Asks questions and actions feedback from mentor"
@@ -206,12 +206,7 @@ topics:
               - "Follows our JavaScript Coding Conventions & Best Practices; uses language-level primitives correctly"
           - criteria: "Implements simple components following accepted best practices"
             examples:
-              - "Follows React Development Conventions & Best Practices; uses component state and lifecycle methods correctly"
-          - criteria: "Uses shared libraries to reuse existing functionality"
-            examples:
-              - "lib.money"
-              - "lib.api"
-              - "lib.identity-verification, etc."
+              - "Follows Development Conventions & Best Practices; uses component state and lifecycle methods correctly"
       - level: 3
         criteria:
           - "Uses appropriate design patterns to solve problems"

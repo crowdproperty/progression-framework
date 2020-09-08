@@ -139,7 +139,7 @@ topics:
       - level: 1
         criteria:
           - "Seeks out the information they need to solve a problem."
-          - "Keeps stakeholders like COps, legal, marketing, finance updated on progress and ensures they have what they need."
+          - "Keeps stakeholders like Lender and Borrower teams, marketing, finance updated on progress and ensures they have what they need."
           - "Able to clearly articulate what we’re working on and why."
       - level: 2
         criteria:

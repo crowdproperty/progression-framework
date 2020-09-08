@@ -77,7 +77,7 @@ topics:
           - "Breaks down projects into smaller iterative steps that each deliver value"
       - level: 5
         criteria:
-          - "Solves the 'hard problem' in a project e.g. Mastercard crypto and sees it through to resolution"
+          - "Solves the 'hard problem' in a project and sees it through to resolution"
           - "Solves larger ambiguous problems"
           - "Leads incident resolutions"
           - "Makes judgements about when to diverge from the immediate goal to achieve something else"
@@ -112,7 +112,7 @@ topics:
         exampleCriteria:
           - criteria: "Makes improvements to modules/libraries/services and goes out of their way to help others learn from it"
             examples:
-              - "I've used RxJava for the first time here, I'm going to do a talk about why I've done this, here's some great blog posts on it"
+              - "I've used Vue.js for the first time here, I'm going to do a talk about why I've done this, here's some great blog posts on it"
       - level: 5
         criteria:
           - "Instills CrowdProperty engineering principles across a whole squad of engineers"
@@ -166,7 +166,7 @@ topics:
     content:
       - level: 1
         criteria:
-          - "Learns to write correct Go code, following guidance and training materials"
+          - "Learns to write correct PHP code, following guidance and training materials"
           - "Fixes simple bugs"
       - level: 2
         criteria:
@@ -182,7 +182,7 @@ topics:
             examples:
               - "Basic CRUD handlers"
               - "Internal/external API proxies"
-          - criteria: "Writes correct Go code following accepted best practices"
+          - criteria: "Writes correct PHP code following accepted best practices"
             examples:
               - "Follows our Coding Conventions & Best Practices, uses language-level primitives correctly"
       - level: 3
@@ -193,17 +193,17 @@ topics:
           - "Co-ordinates complex deployments and database migrations"
           - "Implements distributed systems consisting of multiple interacting services"
           - "Produces technical designs that include a consideration of scalability"
-          - "Handles complex error cases in RPC handlers and message consumers"
+          - "Handles complex error cases in Controllers and message consumers"
           - "Debugs production issues"
           - "Considers metrics when building a new system"
         exampleCriteria:
-          - criteria: "Writes idiomatic Go code"
+          - criteria: "Writes idiomatic PHP code"
             examples:
-              - "Follows the guidelines in Effective Go (https://golang.org/doc/effective_go.html), avoids using patterns that are idiomatic in other languages"
+              - "Follows the guidelines in PHP The Right Way(https://phptherightway.com/), avoids using patterns that are idiomatic in other languages"
           - criteria: "Mitigates race conditions and partial failure states in distributed systems"
             examples:
               - "Uses locking where appropriate, writes code that is “self-healing” when dealing with distributed failure (e.g. data needs to be written in two or more services)"
-          - criteria: "Implements complex RPC handlers"
+          - criteria: "Implements complex data handling"
             examples:
               - "Implements complex business logic, orchestrates multi-stage processes, deals with idempotency or distributed data sources"
           - criteria: "Proactively considers security implications of their work"
@@ -225,10 +225,9 @@ topics:
         exampleCriteria:
           - criteria: "Implements services or libraries that require a deep level of domain knowledge"
             examples:
-              - "Mastercard message parsing"
-              - "Credit decisioning"
-              - "CASS scheduling"
-              - "Google Pay"
+              - "KYC checks"
+              - "Banking providers"
+              - "CRM platforms"
           - criteria: "Makes contributions to library code or core services"
             examples:
               - "Bug fixes, small improvements; things that don’t result in a major change in the public API"
@@ -250,7 +249,7 @@ topics:
         exampleCriteria:
           - criteria: "Produces clear technical designs for large complex projects"
             examples:
-              - "Outbound and Inbound MasterCard clearing proposals"
+              - "Goji migration"
       - level: 6
         criteria:
           - "Makes major contributions to technologies and libraries that we depend on"

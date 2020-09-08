@@ -77,7 +77,7 @@ topics:
           - "Breaks down projects into smaller iterative steps that each deliver value"
       - level: 5
         criteria:
-          - "Solves the 'hard problem' in a project e.g. Mastercard crypto and sees it through to resolution"
+          - "Solves the 'hard problem' in a project and sees it through to resolution"
           - "Solves larger ambiguous problems"
           - "Leads incident resolutions"
           - "Makes judgements about when to diverge from the immediate goal to achieve something else"
@@ -112,7 +112,7 @@ topics:
         exampleCriteria:
           - criteria: "Makes improvements to modules/libraries/services and goes out of their way to help others learn from it"
             examples:
-              - "I've used RxJava for the first time here, I'm going to do a talk about why I've done this, here's some great blog posts on it"
+              - "I've used Vue.js for the first time here, I'm going to do a talk about why I've done this, here's some great blog posts on it"
       - level: 5
         criteria:
           - "Instills CrowdProperty engineering principles across a whole squad of engineers"
